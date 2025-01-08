@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, FileText, Github, Twitter } from 'lucide-react';
 import ParticleBackground from '../components/background/ParticleBackground';
 
@@ -25,12 +24,23 @@ const PersonalWebsite = () => {
                 Resume
               </a>
               <a 
+                href="https://scholar.google.com/citations?user=vUqC5hQAAAAJ" 
+                className="inline-flex items-center text-gray-300 hover:text-blue-400 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 22a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM12 3L2 10l4.034 3.281A7 7 0 0 1 12 10a7 7 0 0 1 5.966 3.281L22 10 12 3z"/>
+                </svg>
+                Scholar
+              </a>
+              <a 
                 href="https://github.com/UFO-101" 
                 className="inline-flex items-center text-gray-300 hover:text-blue-400 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github className="w-5 h-5 mr-2" />
+                <Github className="w-5 h-5 mr-2" strokeWidth={2} />
                 GitHub
               </a>
               <a 
@@ -62,6 +72,7 @@ const PersonalWebsite = () => {
                 <h3 className="text-lg font-semibold text-gray-100">
                   Transformer Circuit Faithfulness Metric are Not Robust
                   <span className="ml-2 text-blue-400">(COLM 2024)</span>
+                  <span className="ml-2 text-green-400">Oral Spotlight</span>
                 </h3>
                 <p className="text-gray-300 mt-1">Joseph Miller*, Bilal Chughtai, William Saunders</p>
                 <div className="mt-2 space-x-4">

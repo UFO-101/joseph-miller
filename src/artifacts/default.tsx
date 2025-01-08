@@ -267,6 +267,16 @@ const PersonalWebsite = () => {
               </div>
             </div>
           </section>
+
+          {/* Contact */}
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-100 mb-6">Contact</h2>
+            <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
+              <p className="text-gray-300">
+                You can reach me at: <span className="text-blue-400">josephmiller101 [at Gmail]</span>
+              </p>
+            </div>
+          </section>
         </main>
       </div>
     </div>

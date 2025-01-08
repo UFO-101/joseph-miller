@@ -283,7 +283,25 @@ Here are some popular free cloud hosting platforms and how to deploy your app to
    npm run deploy
    ```
 
-5. Set up GitHub Pages in your repository settings to use the `gh-pages` branch.
+5. **Important: Custom Domain Setup**
+   - If using a custom domain:
+     - Create a file named `CNAME` in your `public` directory containing just your domain name:
+       ```plaintext:public/CNAME
+       yourdomain.com
+       ```
+     - This file will be copied to the `dist` folder during build
+     - This prevents your custom domain from being unset during deployments
+     - This should set the custom domain property in the GitHub Pages settings
+
+   - DNS Configuration:
+     - Add a CNAME record at your domain registrar pointing to `<username>.github.io`
+     - DNS changes can take up to 48 hours to propagate
+     - During this time:
+       - The site might initially work on HTTP but not HTTPS
+       - GitHub will automatically provision an SSL certificate once DNS is properly configured
+     - After DNS propagation and SSL setup are complete, both HTTP and HTTPS should work correctly
+
+6. Make sure GitHub Pages is set up to use the `gh-pages` branch
 
 #### Cloudflare Pages
 

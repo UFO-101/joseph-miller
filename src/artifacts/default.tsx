@@ -151,6 +151,27 @@ const PersonalWebsite = () => {
                   </a>
                 </div>
               </div>
+
+              <div className="bg-gray-800/80 p-6 rounded-xl shadow-md border-l-4 border-yellow-500 backdrop-blur-sm">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  Open Problems in Mechanistic Interpretability
+                  <span className="ml-2 text-gray-300">(under review)</span>
+                </h3>
+                <p className="text-gray-300 mt-1">
+                  Lee Sharkey, Bilal Chughtai, Joshua Batson, Jack Lindsey, Jeff Wu, Lucius Bushnaq, Nicholas Goldowsky-Dill, 
+                  Stefan Heimersheim, Alejandro Ortega, Joseph Bloom, Stella Biderman, Adria Garriga-Alonso, Arthur Conmy, 
+                  Neel Nanda, Jessica Rumbelow, Martin Wattenberg, Nandi Schoots, Joseph Miller, Eric J. Michaud, Stephen Casper, 
+                  Max Tegmark, William Saunders, David Bau, Eric Todd, Atticus Geiger, Mor Geva, Jesse Hoogland, Daniel Murfet, Tom McGrath
+                </p>
+                <div className="mt-2 space-x-4">
+                  <a href="https://arxiv.org/abs/2501.16496" className="inline-flex items-center text-blue-400 hover:text-blue-300">
+                    Paper <ExternalLink className="ml-1 w-4 h-4" />
+                  </a>
+                  <a href="https://x.com/leedsharkey/status/1884565908342874380" className="inline-flex items-center text-blue-400 hover:text-blue-300">
+                    Tweet <ExternalLink className="ml-1 w-4 h-4" />
+                  </a>
+                </div>
+              </div>
             </div>
           </section>
 

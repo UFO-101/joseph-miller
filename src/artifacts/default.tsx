@@ -74,7 +74,7 @@ const PersonalWebsite = () => {
                   <span className="ml-2 text-blue-400">(COLM 2024)</span>
                   <span className="ml-2 text-green-400">Oral Spotlight</span>
                 </h3>
-                <p className="text-gray-300 mt-1">Joseph Miller*, Bilal Chughtai, William Saunders</p>
+                <p className="text-gray-300 mt-1"><strong>Joseph Miller</strong>*, Bilal Chughtai, William Saunders</p>
                 <div className="mt-2 space-x-4">
                   <a href="https://arxiv.org/abs/2407.08734" className="inline-flex items-center text-blue-400 hover:text-blue-300">
                     Paper <ExternalLink className="ml-1 w-4 h-4" />
@@ -99,7 +99,7 @@ const PersonalWebsite = () => {
                   Gradient Routing: Masking Gradients to Localize Computation in Neural Networks
                   <span className="ml-2 text-gray-300">(under review)</span>
                 </h3>
-                <p className="text-gray-300 mt-1">Alex Cloud*, Jacob Goldman-Wetzler*, Evžen Wybitul*, Joseph Miller*, Alexander Matt Turner</p>
+                <p className="text-gray-300 mt-1">Alex Cloud*, Jacob Goldman-Wetzler*, Evžen Wybitul*, <strong>Joseph Miller</strong>*, Alexander Matt Turner</p>
                 <div className="mt-2 space-x-4">
                   <a href="https://arxiv.org/abs/2410.04332" className="inline-flex items-center text-blue-400 hover:text-blue-300">
                     Paper <ExternalLink className="ml-1 w-4 h-4" />
@@ -121,7 +121,7 @@ const PersonalWebsite = () => {
                   Refined SAEs: Transmuting Compute into Interpretability
                   <span className="ml-2 text-gray-300">(forthcoming)</span>
                 </h3>
-                <p className="text-gray-300 mt-1">Kola Ayonrinde*, Joseph Miller*, Evžen Wybitul*, Alexander Matt Turner</p>
+                <p className="text-gray-300 mt-1">Kola Ayonrinde*, <strong>Joseph Miller</strong>*, Evžen Wybitul*, Alexander Matt Turner</p>
                 <div className="mt-2">
                   <span className="text-gray-300">Links coming soon</span>
                 </div>
@@ -133,7 +133,7 @@ const PersonalWebsite = () => {
                   <span className="ml-2 text-blue-400">(ICML 2023)</span>
                 </h3>
                 <p className="text-gray-300 mt-1">
-                  Tony T. Wang*, Adam Gleave*, Tom Tseng, Kellin Pelrine, Nora Belrose, Joseph Miller, Michael D. Dennis, 
+                  Tony T. Wang*, Adam Gleave*, Tom Tseng, Kellin Pelrine, Nora Belrose, <strong>Joseph Miller</strong>, Michael D. Dennis, 
                   Yawen Duan, Viktor Pogrebniak, Sergey Levine, Stuart Russell
                 </p>
                 <div className="mt-2 space-x-4">
@@ -160,7 +160,7 @@ const PersonalWebsite = () => {
                 <p className="text-gray-300 mt-1">
                   Lee Sharkey, Bilal Chughtai, Joshua Batson, Jack Lindsey, Jeff Wu, Lucius Bushnaq, Nicholas Goldowsky-Dill, 
                   Stefan Heimersheim, Alejandro Ortega, Joseph Bloom, Stella Biderman, Adria Garriga-Alonso, Arthur Conmy, 
-                  Neel Nanda, Jessica Rumbelow, Martin Wattenberg, Nandi Schoots, Joseph Miller, Eric J. Michaud, Stephen Casper, 
+                  Neel Nanda, Jessica Rumbelow, Martin Wattenberg, Nandi Schoots, <strong>Joseph Miller</strong>, Eric J. Michaud, Stephen Casper, 
                   Max Tegmark, William Saunders, David Bau, Eric Todd, Atticus Geiger, Mor Geva, Jesse Hoogland, Daniel Murfet, Tom McGrath
                 </p>
                 <div className="mt-2 space-x-4">

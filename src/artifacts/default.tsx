@@ -242,6 +242,19 @@ const PersonalWebsite = () => {
               </div>
 
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
+                <a href="https://github.com/UFO-101/keepdown" 
+                   className="block group">
+                  <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
+                    KeepDown
+                    <ExternalLink className="ml-2 w-4 h-4" />
+                  </h3>
+                  <p className="text-gray-300 mt-2">
+                    A Chrome extension that adds real-time Markdown preview to Google Keep notes. Write your notes in Markdown and see them rendered instantly alongside your text.
+                  </p>
+                </a>
+              </div>
+
+              <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
                 <a href="https://github.com/UFO-101/PerspectivePointCloud" 
                    className="block group">
                   <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">

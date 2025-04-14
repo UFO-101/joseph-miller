@@ -60,7 +60,7 @@ const PersonalWebsite = () => {
           {/* About */}
           <section className="mb-12">
             <p className="text-lg text-gray-300">
-              I'm an AI Safety researcher working on mechanistic interpretability and circuit discovery.
+              I'm an AI safety researcher working on mechanistic interpretability and circuit discovery. I'm starting my PhD at Oxford University in October 2025.
             </p>
           </section>
 

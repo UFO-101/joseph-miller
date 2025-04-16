@@ -205,18 +205,28 @@ const PersonalWebsite = () => {
             
             <div className="space-y-6">
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
-                <h3 className="text-lg font-semibold text-gray-100">hypnogram.xyz</h3>
-                <p className="text-gray-400 mt-1">Founder / Solo Engineer, September 2021 – April 2022</p>
-                <p className="text-gray-300 mt-2">
-                  Built a popular text-to-image generation website that generated over 5.4 million images for 1.2 million users.
-                  Developed improved versions of open source text-to-image methods and implemented the full stack infrastructure,
-                  including GPU cluster management, backend database, and a zero-dependency frontend in Svelte.
-                </p>
+                <a href="https://hypnogram.xyz"
+                   className="block group"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
+                    hypnogram.xyz
+                    <ExternalLink className="ml-2 w-4 h-4" />
+                  </h3>
+                  <p className="text-gray-400 mt-1">Founder / Solo Engineer, September 2021 – April 2022</p>
+                  <p className="text-gray-300 mt-2">
+                    Built a popular text-to-image generation website that generated over 5.4 million images for 1.2 million users.
+                    Developed improved versions of open source text-to-image methods and implemented the full stack infrastructure,
+                    including GPU cluster management, backend database, and a zero-dependency frontend in Svelte.
+                  </p>
+                </a>
               </div>
 
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
-                <a href="https://ufo-101.github.io/auto-circuit/" 
-                   className="block group">
+                <a href="https://ufo-101.github.io/auto-circuit/"
+                   className="block group"
+                   target="_blank"
+                   rel="noopener noreferrer">
                   <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
                     AutoCircuit
                     <ExternalLink className="ml-2 w-4 h-4" />
@@ -228,8 +238,10 @@ const PersonalWebsite = () => {
               </div>
 
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
-                <a href="https://www.lesswrong.com/posts/cgqh99SHsCv3jJYDS/we-found-an-neuron-in-gpt-2" 
-                   className="block group">
+                <a href="https://www.lesswrong.com/posts/cgqh99SHsCv3jJYDS/we-found-an-neuron-in-gpt-2"
+                   className="block group"
+                   target="_blank"
+                   rel="noopener noreferrer">
                   <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
                     We Found An Neuron In GPT-2
                     <ExternalLink className="ml-2 w-4 h-4" />
@@ -242,8 +254,10 @@ const PersonalWebsite = () => {
               </div>
 
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
-                <a href="https://github.com/UFO-101/keepdown" 
-                   className="block group">
+                <a href="https://github.com/UFO-101/keepdown"
+                   className="block group"
+                   target="_blank"
+                   rel="noopener noreferrer">
                   <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
                     KeepDown
                     <ExternalLink className="ml-2 w-4 h-4" />
@@ -255,8 +269,10 @@ const PersonalWebsite = () => {
               </div>
 
               <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
-                <a href="https://github.com/UFO-101/PerspectivePointCloud" 
-                   className="block group">
+                <a href="https://github.com/UFO-101/PerspectivePointCloud"
+                   className="block group"
+                   target="_blank"
+                   rel="noopener noreferrer">
                   <h3 className="text-lg font-semibold text-gray-100 group-hover:text-blue-400 inline-flex items-center">
                     Perspective Point Cloud
                     <ExternalLink className="ml-2 w-4 h-4" />

@@ -338,6 +338,15 @@ const PersonalWebsite = () => {
               </p>
             </div>
           </section>
+
+          {/* Discrete notice */}
+          <section className="mb-12 -mt-6">
+            <div className="p-6 rounded-xl">
+              <p className="text-sm text-gray-500">
+                I have signed no contracts or agreements whose existence I cannot mention.
+              </p>
+            </div>
+          </section>
         </main>
       </div>
     </div>

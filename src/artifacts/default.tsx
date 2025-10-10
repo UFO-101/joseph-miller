@@ -60,7 +60,7 @@ const PersonalWebsite = () => {
           {/* About */}
           <section className="mb-12">
             <p className="text-lg text-gray-300">
-              I'm an AI safety researcher working on mechanistic interpretability and circuit discovery. I'm starting my PhD at Oxford University in October 2025.
+              I'm an AI safety researcher working on mechanistic interpretability and circuit discovery. I'm currently doing my PhD at Oxford University.
             </p>
           </section>
 
@@ -178,12 +178,28 @@ const PersonalWebsite = () => {
           {/* Research Experience */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-100 mb-6">Research Experience</h2>
-            
+
+            <div className="bg-gray-800/80 p-6 rounded-xl shadow-md mb-6 backdrop-blur-sm">
+              <h3 className="text-lg font-semibold text-gray-100">PhD Student, University of Oxford</h3>
+              <p className="text-gray-400">October 2025 - Present</p>
+              <ul className="mt-4 space-y-2 text-gray-300">
+                <li>• Researching mechanistic interpretability and AI safety</li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800/80 p-6 rounded-xl shadow-md mb-6 backdrop-blur-sm">
+              <h3 className="text-lg font-semibold text-gray-100">Teaching Assistant, <a href="https://www.lasrlabs.org/" className="text-blue-400 hover:text-blue-300">LASR Labs</a></h3>
+              <p className="text-gray-400">February 2025 - October 2025</p>
+              <ul className="mt-4 space-y-2 text-gray-300">
+                <li>• Provided debugging help and guidance on research direction to LASR participants</li>
+              </ul>
+            </div>
+
             <div className="bg-gray-800/80 p-6 rounded-xl shadow-md mb-6 backdrop-blur-sm">
               <h3 className="text-lg font-semibold text-gray-100">Independent Researcher / <a href="https://www.matsprogram.org/" className="text-blue-400 hover:text-blue-300">MATS</a> Scholar</h3>
-              <p className="text-gray-400">August 2023 - Present</p>
+              <p className="text-gray-400">August 2023 - February 2025</p>
               <ul className="mt-4 space-y-2 text-gray-300">
-                <li>• Researching circuit discovery in mechanistic interpretability under William Saunders</li>
+                <li>• Researched circuit discovery in mechanistic interpretability under William Saunders</li>
                 <li>• Published AutoCircuit, a library for efficient automatic circuit discovery</li>
                 <li>• Contributed to Gradient Routing development in the MATS program</li>
               </ul>

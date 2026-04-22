@@ -10,7 +10,7 @@ const PersonalWebsite = () => {
         <header className="bg-gray-800/80 shadow-sm backdrop-blur-sm">
           <div className="max-w-4xl mx-auto py-8 px-4">
             <h1 className="text-4xl font-bold text-gray-100">Joseph Miller</h1>
-            <p className="text-xl text-gray-300 mt-2">Machine Learning Researcher focusing on AI Safety</p>
+            <p className="text-xl text-gray-300 mt-2">Director of PauseAI UK<br></br>Machine Learning Researcher focusing on AI Safety</p>
             
             {/* Social Links */}
             <div className="mt-6 flex items-center space-x-6">
@@ -60,7 +60,7 @@ const PersonalWebsite = () => {
           {/* About */}
           <section className="mb-12">
             <p className="text-lg text-gray-300">
-              I'm an AI safety researcher working on mechanistic interpretability and circuit discovery. I'm currently doing my PhD at Oxford University.
+I'm the Founder and Director of PauseAI UK. I'm also an AI safety researcher working on mechanistic interpretability and circuit discovery, currently doing my PhD at Oxford University.
             </p>
           </section>
 
@@ -351,6 +351,7 @@ const PersonalWebsite = () => {
             <div className="bg-gray-800/80 p-6 rounded-xl shadow-md backdrop-blur-sm">
               <p className="text-gray-300">
                 You can reach me at: <span className="text-blue-400">josephmiller101 [at Gmail]</span>
+                <br></br>For inquiries related to PauseAI please use: <span className="text-blue-400">joseph [at pauseai dot info]</span>
               </p>
             </div>
           </section>
